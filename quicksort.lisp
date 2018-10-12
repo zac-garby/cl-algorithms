@@ -1,6 +1,3 @@
-(defun middle (xs)
-  (when xs (nth (floor (1- (length xs)) 2) xs)))
-
 (defun quicksort (xs)
   (when xs
 	(let* ((com (car xs))
